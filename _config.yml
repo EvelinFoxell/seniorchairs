@@ -1,0 +1,17 @@
+# Site settings
+title: 'Senior Custom Upholstery & Furniture'
+email: 'sales@seniorchairs.com'
+description: 'Manufacturers and importers of chrome and wood chairs, barstools, and oak edge tables for restaurants, banquet halls, hotels and institutions.'
+url: 'http://www.seniorchairs.com'
+baseurl: ''
+
+# Build settings
+markdown: 'kramdown'
+permalink: 'pretty'
+include: ['_pages', '.htaccess']
+exclude: ['Gemfile', 'Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']
+gems: ['jekyll-sitemap']
+
+sass:
+  sass_dir: 'assets/styles/_scss'
+  style: 'compressed'

@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /chairs/
+---
+<h1 class="page-heading">Chairs</h1>
+
+<ul class="items">
+	{% for page in site.pages %}
+		{% if page.layout == "seat" %}
+		<li class="{{ page.tags }}">
+			<img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image }}">
+
+			<h3>
+				<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			</h3>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>

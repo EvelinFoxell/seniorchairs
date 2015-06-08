@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content grid">
+
+    <div class="col-1-4">
+      <img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image}}" style="display:block;">
+    </div>
+
+    <div class="col-3-4">
+      {{ content }}
+
+      <h2 id="fabrics">Color Options</h2>
+
+      <a href="{{ site.baseurl }}/colors/">See here</a> for additional fabric and vinyl color options.
+    </div>
+
+  </article>
+
+</div>

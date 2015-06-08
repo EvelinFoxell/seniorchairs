@@ -1,0 +1,164 @@
+.gallery {
+	@extend .cf;
+
+	.active {
+		border-color: #ddd;
+	}
+}
+
+.full {
+	height: 271px;
+	width: 271px;
+	margin-bottom: $separator;
+	border: 3px solid #ddd;
+}
+
+.thumbs {
+	@extend .cf, .bl;
+	margin-bottom: $separator;
+
+	li {
+		height: 40px;
+		width: 40px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 3px solid white;
+	}
+}
+
+
+.vinyl .full,
+.vinyl li {
+	background: url('/assets/content/vinyl-sprite.jpg');
+	background-size: 271px auto;
+}
+
+/**
+ * Vinyl Sprite Coordinates
+ */
+.vinyl {
+
+	.cao05 {
+		background-position: 0 2*271px;
+	}
+
+	.cao29 {
+		background-position: 0 3*271px;
+	}
+
+	.cao11 {
+		background-position: 0 4*271px;
+	}
+
+	.cao28 {
+		background-position: 0 5*271px;
+	}
+
+	.cao06 {
+		background-position: 0 6*271px;
+	}
+
+	.cao03 {
+		background-position: 0 7*271px;
+	}
+
+	.cao16 {
+		background-position: 0 8*271px;
+	}
+
+	.cao10 {
+		background-position: 0 9*271px;
+	}
+
+	.cao23 {
+		background-position: 0 10*271px;
+	}
+
+	.cao04 {
+		background-position: 0 11*271px;
+	}
+
+	.cao13 {
+		background-position: 0 12*271px;
+	}
+
+	.cao18 {
+		background-position: 0 13*271px;
+	}
+
+	.cao24 {
+		background-position: 0 14*271px;
+	}
+
+	.cao02 {
+		background-position: 0 15*271px;
+	}
+
+	.cao27 {
+		background-position: 0 16*271px;
+	}
+
+	.cao19 {
+		background-position: 0 17*271px;
+	}
+
+	.cao17 {
+		background-position: 0 18*271px;
+	}
+
+	.cao21 {
+		background-position: 0 19*271px;
+	}
+
+	.cao12 {
+		background-position: 0 20*271px;
+	}
+
+	.cao20 {
+		background-position: 0 22*271px;
+	}
+
+	.cao15 {
+		background-position: 0 23*271px;
+	}
+
+	.cao14 {
+		background-position: 0 24*271px;
+	}
+
+	.cao01 {
+		background-position: 0 25*271px;
+	}
+
+	.cao22 {
+		background-position: 0 26*271px;
+	}
+
+	.cao07 {
+		background-position: 0 27*271px;
+	}
+
+	.cao08 {
+		background-position: 0 28*271px;
+	}
+
+	.cao26 {
+		background-position: 0 29*271px;
+	}
+
+	.cao25 {
+		background-position: 0 1*271px;
+	}
+
+	.cao09 {
+		background-position: 0 0*271px;
+	}
+}
+
+/**
+ * Fabric Sprite Coordinates
+ */
+.fabric {
+
+}

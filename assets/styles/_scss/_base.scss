@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Noto Serif", Georgia, serif;
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	color: #333;
+	background: #ccc;
+}
+
+.wrapper {
+	@extend .cf;
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+/**
+ * Clear Fix
+ */
+.cf:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/**
+ * Blank List
+ */
+.bl {
+	margin: 0;
+	list-style: none;
+}
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+
+/**
+ * Images
+ */
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+/**
+ * Lists
+ */
+ul, ol {
+	margin-left: 4rem;
+	margin-bottom: $separator;
+	list-style: square;
+}
+
+li {
+	> ul,
+	> ol {
+		 margin-bottom: 0;
+	}
+}
+
+/**
+ * Links
+ */
+a {
+	color: $brand-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5 {
+	font-family: "Trebuchet MS", "Lato", sans-serif;
+	font-weight: normal;
+	color: #ba2438;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3.2rem;
+	line-height: 3.2rem;
+	margin: 0 0 $separator;
+}
+
+h2 {
+	font-size: 2.4rem;
+	line-height: 2.4rem;
+	margin: 0 0 $separator / 2;
+}
+
+h3 {
+	font-size: 2.0rem;
+	line-height: 2.0rem;
+	margin: 0 0 $separator / 2;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+}
+
+
+/**
+ * Paragraphs
+ */
+p {
+	margin: 0 0 $separator;
+	text-align: justify;
+}
+
+
+/**
+ * Tables
+ */
+table {
+	margin: 0 0 $separator;
+}
+
+thead {
+	border-bottom: 1px solid #000;
+	border-top: 2px solid #000;
+}
+
+th, td {
+	padding: 0 $separator 0 0;
+}
