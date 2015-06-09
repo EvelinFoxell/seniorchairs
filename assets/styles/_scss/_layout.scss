@@ -4,7 +4,7 @@
 #site-header {
 
 	.wrapper {
-		background: url('/assets/styles/images/header.jpg') no-repeat center top;
+		background: url('images/header.jpg') no-repeat center top;
 		padding-top: 250px;
 		margin-top: $separator;
 		box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.35);
@@ -51,18 +51,13 @@
 		margin-bottom: $separator;
 	}
 
-	h3 {
-		margin-bottom: $separator / 2;
-	}
-
 	p {
 		text-align: left;
 	}
 
 	.wrapper.grid {
-		padding: 0 $separator;
 		border-top: 1px solid #EEEEEE;
-		padding-top: $separator;
+		padding: $separator $separator 0;
 	}
 }
 
@@ -104,12 +99,15 @@
  * Category Page
  */
 .items {
-	@extend .cf, .bl;
+	@extend .bl;
 	text-align: center;
 
 	li {
+		@extend .cf;
 		float: left;
 		padding: 10px;
+		background: #fff;
+		width: 170px;
 	}
 
 	h3 {

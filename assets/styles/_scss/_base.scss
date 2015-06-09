@@ -52,15 +52,6 @@ dl, dd, ol, ul, figure {
 
 
 /**
- * Images
- */
-img {
-	max-width: 100%;
-	vertical-align: middle;
-}
-
-
-/**
  * Lists
  */
 ul, ol {
@@ -69,12 +60,6 @@ ul, ol {
 	list-style: square;
 }
 
-li {
-	> ul,
-	> ol {
-		 margin-bottom: 0;
-	}
-}
 
 /**
  * Links

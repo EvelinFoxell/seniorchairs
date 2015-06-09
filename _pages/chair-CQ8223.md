@@ -1,15 +1,15 @@
 ---
 layout: seat
-title: Wood Chair 002A
-permalink: /chairs/002A/
-image: 002A.jpg
-tags: wood
+title: Lounge Chair CQ8223
+permalink: /chairs/CQ8223
+image: CQ8223.jpg
+tags: metal lounge
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae sem at lorem pharetra laoreet eu non nisi. Phasellus sollicitudin felis eu suscipit convallis. Cras auctor dui vel lacus rutrum ultricies. Vivamus eu libero in lacus pretium laoreet. Donec molestie ante ex. Pellentesque mattis tortor et lectus accumsan elementum.
 
 ## Dimensions
 
-Model | Height | Width  | Length
-------|--------|--------|-------
-002A  | 21 in. | 13 in. | 6 in.
-002B  | 13 in. | 9 in.  | 7 in.
+Height | Width  | Depth
+-------|--------|-------
+27 in. | 30 in. | 27 in.

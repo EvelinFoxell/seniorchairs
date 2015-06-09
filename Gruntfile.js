@@ -5,7 +5,10 @@ module.exports = function(grunt) {
 
 		concat: {
 			dist: {
-				src: 'assets/scripts/_source/*.js',
+				src: [
+					'assets/scripts/_source/isotope.pkgd.js',
+					'assets/scripts/_source/*.js'
+				],
 				dest: 'assets/scripts/combined.js'
 			}
 		},
