@@ -9,8 +9,16 @@
 .full {
 	height: 271px;
 	width: 271px;
-	margin-bottom: $separator;
+	margin-bottom: 3*$separator;
 	border: 3px solid #ddd;
+	position: relative;
+}
+
+.full:after {
+	content: attr(title);
+	font-weight: bold;
+	position: absolute;
+	bottom: -2*$separator;
 }
 
 .thumbs {
@@ -34,11 +42,9 @@
 	background-size: 271px auto;
 }
 
-	.full:before {
-		content: attr(class)':';
-		font-weight: bold;
-		float: left;
-	}
+
+
+
 
 /**
  * Vinyl Sprite Coordinates

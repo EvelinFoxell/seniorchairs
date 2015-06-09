@@ -21,6 +21,6 @@ Thursday	| 9:00 am -- 5:00 pm
 Friday		| 9:00 am -- 5:00 pm
 
 ## Store Location
-119 Oakdale Rd  
+119 Oakdale Road  
 Toronto, Ontario  
 M3N 1W2
