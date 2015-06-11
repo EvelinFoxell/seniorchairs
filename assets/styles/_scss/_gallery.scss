@@ -1,55 +1,60 @@
-.gallery {
-	@extend .cf;
-
-	.active {
-		border-color: #ddd;
-	}
-}
-
-.full {
-	height: 271px;
-	width: 271px;
-	margin-bottom: 3*$separator;
-	border: 3px solid #ddd;
+.switcher {
+	clear: both;
 	position: relative;
+	padding-top: 291px;
 }
 
-.full:after {
-	content: attr(title);
-	font-weight: bold;
-	position: absolute;
-	bottom: -2*$separator;
-}
+.sample {
+	float: left;
 
-.thumbs {
-	@extend .cf, .bl;
-	margin-bottom: $separator;
-
-	li {
+	label {
 		height: 40px;
 		width: 40px;
-		float: left;
-		margin-right: 10px;
-		margin-bottom: 10px;
-		border: 3px solid white;
+		display: block;
+		margin: 0 10px 10px 0;
+		cursor: pointer;
+	}
+
+	div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 3px solid #ddd;
+		transition: 0.5s linear;
+		opacity: 0;
+	}
+
+	[type="radio"] {
+		display: none;
+	}
+
+	[type="radio"]:checked ~ label {
+		border: 3px solid #ddd;
+	}
+
+	[type="radio"]:checked ~ label ~ div {
+		opacity: 1;
 	}
 }
-
-
-.vinyl .full,
-.vinyl li {
-	background: url('../content/vinyl-sprite.jpg');
-	background-size: 271px auto;
-}
-
-
-
-
 
 /**
  * Vinyl Sprite Coordinates
  */
 .vinyl {
+
+	.sample {
+
+		div,
+		label {
+			background-image: url('../content/vinyl-sprite.jpg');
+			background-size: 271px auto;
+		}
+
+		div {
+			height: 271px;
+			width: 271px;
+		}
+	}
 
 	.cao05 {
 		background-position: 0 0;
@@ -169,8 +174,69 @@
 }
 
 /**
+ * Stain Sprite Coordinates
+ */
+.stains {
+
+	.sample {
+
+		div,
+		label {
+			background-image: url('../content/stain-sprite.jpg');
+			background-size: 110px auto;
+		}
+
+		div {
+			height: 110px;
+			width: 110px;
+		}
+	}
+
+	.natural {
+		background-position: 0 0;
+	}
+
+	.cherry {
+		background-position: 0 110px;
+	}
+
+	.mahogany {
+
+	}
+
+	.mahogany-dark {
+
+	}
+
+	.walnut {
+
+	}
+}
+
+/**
  * Fabric Sprite Coordinates
  */
-.fabric {
+.fabrics {
 
+	.sample {
+
+		div,
+		label {
+			background-image: url('../content/fabrics-sprite.jpg');
+			background-size: 80px auto;
+		}
+
+		div {
+			height: 80px;
+			width: 80px;
+		}
+	}
+
+	.cactus {
+		background-position: 0 0;
+	}
+
+	.emerald {
+		background-position: 0 80px;
+	}
 }

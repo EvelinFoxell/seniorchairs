@@ -1,7 +1,7 @@
 ---
 layout: seat
 title: Lounge Chair CQ8223
-permalink: /chairs/CQ8223
+permalink: /chairs/CQ8223/
 image: CQ8223.jpg
 tags: metal lounge
 ---
