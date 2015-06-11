@@ -4,7 +4,10 @@ title: Contact Us
 permalink: /contact/
 excerpt: Senior Custom Upholstery phone numbers, fax, email, operating hours and address information.
 ---
-{::options parse_block_html="true" /}
+
+<div class="grid">
+
+<div class="col-1-2">
 
 **Local:** 416-744-5058  
 **Fax:** 416-744-0922  
@@ -24,3 +27,11 @@ Friday		| 9:00 am -- 5:00 pm
 119 Oakdale Road  
 Toronto, Ontario  
 M3N 1W2
+
+</div>
+
+<div class="col-1-2">
+<a href="https://goo.gl/maps/Um0YY"><img src="{{ site.baseurl }}/assets/content/map.png" class="content"></a>
+</div>
+
+</div>

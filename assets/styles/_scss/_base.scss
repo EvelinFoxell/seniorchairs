@@ -40,6 +40,7 @@ body {
 	list-style: none;
 }
 
+
 /**
  * Reset some basic elements
  */
@@ -78,6 +79,7 @@ a {
  */
 img {
 	max-width: 100%;
+	display: block;
 }
 
 img.right {
@@ -87,8 +89,12 @@ img.right {
 
 img.center {
 	margin: auto;
-	display: block;
 }
+
+img.content {
+	border: 3px solid #ddd;
+}
+
 
 /**
  * Headings
