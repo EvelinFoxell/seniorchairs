@@ -2,16 +2,32 @@
 layout: default
 permalink: /chairs/
 ---
-<h1 class="page-heading">Chairs</h1>
+<h1>Chairs</h1>
 
-<p>
-	<strong>Tags:</strong>
-	<span class="filter" data-filter="all">all</span>
-	<span class="filter" data-filter=".wood">wood</span>
-	<span class="filter" data-filter=".metal">metal</span>
-	<span class="filter" data-filter=".stackable">stackable</span>
-	<span class="filter" data-filter=".lounge">lounge</span>
-</p>
+<div class="grid">
+
+	<div class="col-1-2">
+
+		<p>
+			<strong>Tags:</strong>
+			<span class="filter" data-filter="all">all</span>
+			<span class="filter" data-filter=".wood">wood</span>
+			<span class="filter" data-filter=".metal">metal</span>
+			<span class="filter" data-filter=".stackable">stackable</span>
+			<span class="filter" data-filter=".lounge">lounge</span>
+		</p>
+
+	</div>
+
+	<div class="col-1-2">
+
+		<p class="content-right">
+			<a href="{{ site.baseurl }}/chair-options/">Chair Options</a>
+		</p>
+
+	</div>
+
+</div>
 
 <ul id="items" class="grid left">
 
@@ -24,9 +40,7 @@ permalink: /chairs/
 
 				<img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image }}">
 
-				<h4>
-					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-				</h4>
+				<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
 
 			</div>
 

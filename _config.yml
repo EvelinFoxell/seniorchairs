@@ -2,7 +2,7 @@
 title: 'Senior Custom Upholstery & Furniture'
 email: 'sales@seniorchairs.com'
 description: 'Toronto based manufacturers and importers of chrome and wood chairs, barstools, and oak edge tables for restaurants, banquet halls, hotels and institutions.'
-url: 'http://www.seniorchairs.com'
+url: 'http://localhost:4000'
 baseurl: ''
 
 # Build settings

@@ -12,6 +12,7 @@ body {
 	line-height: 2.6rem;
 	color: #333;
 	background: #ccc;
+
 }
 
 .wrapper {
@@ -82,17 +83,31 @@ img {
 	display: block;
 }
 
-img.right {
-	float: right;
+.half {
 	max-width: 50%;
-}
-
-img.center {
-	margin: auto;
+	margin: 0;
 }
 
 img.content {
 	border: 3px solid #ddd;
+}
+
+/**
+ * Alignment
+ */
+.content-right {
+	float: right;
+}
+
+.content-left {
+	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.content-right {
+		float: none;
+	}
 }
 
 

@@ -4,7 +4,6 @@ title: Contact Us
 permalink: /contact/
 excerpt: Senior Custom Upholstery phone numbers, fax, email, operating hours and address information.
 ---
-
 <div class="grid">
 
 <div class="col-1-2">
@@ -31,7 +30,7 @@ M3N 1W2
 </div>
 
 <div class="col-1-2">
-<a href="https://goo.gl/maps/Um0YY"><img src="{{ site.baseurl }}/assets/content/map.png" class="content"></a>
+<a href="https://goo.gl/maps/Um0YY"><img src="{{ site.baseurl }}/assets/content/map.png" class="content right"></a>
 </div>
 
 </div>

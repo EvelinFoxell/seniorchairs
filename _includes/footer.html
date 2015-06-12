@@ -1,6 +1,6 @@
 <footer id="site-footer">
 
-	<div class="wrapper grid">
+	<div class="grid">
 
 		<div class="col-3-5">
 			<h3>{{ site.title }}</h3>
@@ -12,22 +12,19 @@
 			<h3>Get in Touch</h3>
 
 			<ul>
-				<li class="fa-phone">416-744-5058</li>
-				<li class="fa-envelope"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-				<li class="fa-facebook"><a href="https://www.facebook.com/pages/Senior-Chairs/143615069138857">facebook.com/seniorchairs</a></li>
+				<li><i class="fa fa-phone"></i>416-744-5058</li>
+				<li><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+				<li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/pages/Senior-Chairs/143615069138857">facebook.com/seniorchairs</a></li>
 			</ul>
 		</div>
 
 	</div>
 
-	<hr class="wrapper">
+	<hr>
 
-	<div style="text-align:center; display:block; margin-top: 20px;">
-		&copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">Senior Custom Upholstery</a>
-	</div>
-
-	<div style="text-align:center; display:block;">
-		Site by <a href="http://www.erikwebdesign.com">Erik Berkun-Drevnig</a>
+	<div class="copyright">
+		<span>&copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">Senior Custom Upholstery</a></span>
+		<span>Site by <a href="http://www.erikwebdesign.com">Erik Berkun-Drevnig</a></span>
 	</div>
 
 </footer>
