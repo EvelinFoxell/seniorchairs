@@ -6,21 +6,33 @@ permalink: /chairs/
 
 <p>
 	<strong>Tags:</strong>
-	<span onClick="$items.isotope({ filter: '*' })">any</span>
-	<span onClick="$items.isotope({ filter: '.wood' })">wood</span>
-	<span onClick="$items.isotope({ filter: '.metal' })">metal</span>
-	<span onClick="$items.isotope({ filter: '.stackable' })">stackable</span>
-	<span onClick="$items.isotope({ filter: '.lounge' })">lounge</span>
+	<span class="filter" data-filter="all">all</span>
+	<span class="filter" data-filter=".wood">wood</span>
+	<span class="filter" data-filter=".metal">metal</span>
+	<span class="filter" data-filter=".stackable">stackable</span>
+	<span class="filter" data-filter=".lounge">lounge</span>
 </p>
 
-<ul class="items">
+<ul id="items" class="grid left">
+
 	{% for page in site.pages %}
 		{% if page.layout == "seat" %}
-		<li class="{{ page.tags }}">
-			<img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image }}">
 
-			<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+		<li class="mix col-1-4 {{ page.tags }}">
+
+			<div>
+
+				<img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image }}">
+
+				<h4>
+					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				</h4>
+
+			</div>
+
 		</li>
+
 		{% endif %}
 	{% endfor %}
+
 </ul>

@@ -98,30 +98,20 @@
 /**
  * Category Page
  */
-
-.items {
+#items {
 	@extend .bl;
-	text-align: center;
 
 	img {
-		height: 250px;
-		display: block;
-		margin: auto;
+		margin: $separator auto;
 	}
 
-	li {
-		@extend .cf;
-		height: 293px;
-		width: 150px;
-		border: 3px solid #eee;
-		margin-right: 20px;
-		margin-bottom: 20px;
-		box-sizing: content-box;
+	li div {
+		border: 3px solid #ddd;
+		margin-bottom: $separator;
 	}
 
 	h4 {
 		border-top: 3px solid #eee;
-		line-height: 4rem;
-		margin: 0;
+		text-align: center;
 	}
 }

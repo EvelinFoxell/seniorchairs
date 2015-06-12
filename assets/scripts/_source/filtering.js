@@ -1,4 +1,13 @@
-var $items = $('.items').isotope({
-	itemSelector: '.items li',
-	layoutMode: 'fitRows'
+$(function() {
+	$.injectCSS({
+		".mix": {
+			"display": "none"
+		}
+	});
+
+	$('#items').mixItUp({
+		animation: {
+			enable: false
+		}
+	});
 });
