@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /
-excerpt: All of our available chairs
 ---
 When it comes to beautiful and well-designed restaurant chairs, tables, bar stools and booths, Senior Chairs is the right furniture manufacturing company that you can trust. Since 1954, we have been committed to offering well-crafted and stylish furniture for commercial, residential and institutional sectors. If you need [fashionable chairs]({{ site.baseurl }}/chairs/) for your restaurant or [state-of-the-art tables]({{ site.baseurl }}/tables/) for your hotel, our company can offer you a variety of durable items at affordable prices.
 

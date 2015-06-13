@@ -98,7 +98,8 @@
 	@extend .bl;
 
 	img {
-		margin: $separator auto;
+		margin: $separator/2 auto;
+		height: 200px;
 	}
 
 	li div {

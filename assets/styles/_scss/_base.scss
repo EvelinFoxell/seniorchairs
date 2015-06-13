@@ -12,7 +12,6 @@ body {
 	line-height: 2.6rem;
 	color: #333;
 	background: #ccc;
-
 }
 
 .wrapper {
@@ -81,6 +80,7 @@ a {
 img {
 	max-width: 100%;
 	display: block;
+	margin-bottom: $separator;
 }
 
 .half {

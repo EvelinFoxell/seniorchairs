@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact/
-excerpt: Senior Custom Upholstery phone numbers, fax, email, operating hours and address information.
+excerpt: Senior Custom Upholstery phone numbers, email, operating hours and address information.
 ---
 <div class="grid">
 

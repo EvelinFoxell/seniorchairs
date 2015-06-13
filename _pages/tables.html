@@ -1,0 +1,54 @@
+---
+layout: default
+permalink: /tables/
+---
+<h1>Tables</h1>
+
+<div class="grid">
+
+	<div class="col-1-2">
+
+		<p>
+			<strong>Tags:</strong>
+			<span class="filter" data-filter="all">all</span>
+			<span class="filter" data-filter=".base">base</span>
+			<span class="filter" data-filter=".table">table</span>
+		</p>
+
+	</div>
+
+	<div class="col-1-2">
+
+		<p class="content-right">
+			<a href="{{ site.baseurl }}/table-options/">Table Options</a>
+		</p>
+
+	</div>
+
+</div>
+
+
+
+<ul id="items">
+
+	{% for page in site.pages %}
+		{% if page.layout == "table" %}
+
+		<li class="mix {{ page.tags }}">
+
+			<div>
+
+				<img src="{{ site.baseurl }}/assets/content/tables/{{ page.image }}">
+
+				<h4>
+					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				</h4>
+
+			</div>
+
+		</li>
+
+		{% endif %}
+	{% endfor %}
+
+</ul>
