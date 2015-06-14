@@ -2,9 +2,9 @@
 The company website for Senior Chairs, created with Jekyll.
 
 ## Features
-- Semantic markup
-- Responsive CSS grid
-- Pluginless category pages
+- Semantic markup and a responsive CSS grid
+- Pluginless category pages with dynamic filtering
+- Sitemap using `jekyll-sitemap` plugin
 - Intelligent `_config.yml` defaults
 
 ## Grunt
