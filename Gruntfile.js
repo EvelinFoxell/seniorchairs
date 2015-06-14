@@ -36,7 +36,13 @@ module.exports = function(grunt) {
 		},
 
 		exec: {
-			favicon: 'convert _favicon.svg -bordercolor white -border 0 \\( -clone 0 -resize 16x16 \\) \\( -clone 0 -resize 32x32 \\) \\( -clone 0 -resize 48x48 \\) \\( -clone 0 -resize 64x64 \\) -delete 0 -alpha off -colors 256 favicon.ico'
+			ico: 'convert _favicon.svg \
+				\\( -clone 0 -resize 16x16 \\) \
+				\\( -clone 0 -resize 32x32 \\) \
+				\\( -clone 0 -resize 48x48 \\) \
+				\\( -clone 0 -resize 64x64 \\) \
+				-delete 0 -alpha off -colors 256 favicon.ico',
+			apple: 'convert _favicon.svg -resize 152x152 apple-touch-icon-152x152.png'
 		}
 	});
 
@@ -46,6 +52,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-exec');
 
 	grunt.registerTask('default', ['concat', 'uglify']);
-	grunt.registerTask('images', ['imagemin:images']);
-	grunt.registerTask('favicon', ['exec:favicon']);
+	grunt.registerTask('images', ['imagemin']);
+	grunt.registerTask('favicon', ['exec']);
 };
