@@ -9,6 +9,6 @@ hey hey hey
 
 ## Dimensions
 
-Height | Diameter | Base Spread
--------|----------|------------
-42"    | 30"      | 30"
+Height | Width | Depth
+-------|-------|------
+42"    | 45"   | 48"
