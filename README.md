@@ -9,6 +9,6 @@ The company website for Senior Chairs, created with Jekyll.
 
 ## Grunt
 Automated tasks for:
-- Loseless compression of images
-- JavaScript concatenation and minification
-- Favicon and Apple Touch Icon generation from SVG
+- Loselessly compressing images
+- Concatenating and minifying JavaScript files
+- Generating the favicon and Apple touch icon
