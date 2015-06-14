@@ -1,5 +1,5 @@
 # Senior Chairs
-The company website for Senior Chairs, created with Jekyll.
+The company website for [Senior Chairs](http://www.seniorchairs.com), created with Jekyll.
 
 ## Features
 - Semantic markup and a responsive CSS grid
