@@ -1,8 +1,7 @@
 ---
-layout: seat
 title: Wood Chair 005S
 permalink: /chairs/005S/
-image: 005S.jpg
+image: chairs/005S.jpg
 tags: wood
 ---
 

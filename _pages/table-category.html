@@ -20,25 +20,23 @@ permalink: /tables/
 	<div class="col-1-2">
 
 		<p class="content-right">
-			<a href="{{ site.baseurl }}/table-options/">Table Options</a>
+			<a href="{{ site.baseurl }}/tables/options/">Table Options</a>
 		</p>
 
 	</div>
 
 </div>
 
-
-
-<ul id="items">
+<ul id="items" class="grid left">
 
 	{% for page in site.pages %}
-		{% if page.layout == "table" %}
+		{% if page.type == "table" %}
 
-		<li class="mix {{ page.tags }}">
+		<li class="mix col-1-4 {{ page.tags }}">
 
 			<div>
 
-				<img src="{{ site.baseurl }}/assets/content/tables/{{ page.image }}">
+				<img src="{{ site.baseurl }}/assets/content/{{ page.image }}">
 
 				<h4>
 					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

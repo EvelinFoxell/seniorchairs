@@ -18,3 +18,26 @@ sass:
 markdown: 'kramdown'
 kramdown:
   parse_block_html: true
+
+# Folder based sorting
+defaults:
+  - scope:
+      path: '_pages/chairs'
+    values:
+      layout: 'item'
+      type: 'chair'
+  - scope:
+      path: '_pages/barstools'
+    values:
+      layout: 'item'
+      type: 'barstool'
+  - scope:
+      path: '_pages/tables'
+    values:
+      layout: 'item'
+      type: 'table'
+  - scope:
+      path: '_pages/booths'
+    values:
+      layout: 'item'
+      type: 'booth'

@@ -1,0 +1,26 @@
+---
+layout: page
+permalink: /booths/
+title: Booths
+---
+<ul id="items" class="grid left">
+
+	{% for page in site.pages %}
+		{% if page.type == "booth" %}
+
+		<li class="mix col-1-4 {{ page.tags }}">
+
+			<div>
+
+				<img src="{{ site.baseurl }}/assets/content/{{ page.image }}">
+
+				<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+
+			</div>
+
+		</li>
+
+		{% endif %}
+	{% endfor %}
+
+</ul>

@@ -1,11 +1,9 @@
 ---
-layout: seat
 title: Wood Chair 001S
 permalink: /chairs/001S/
-image: 001S.jpg
+image: chairs/001S.jpg
 tags: wood
 ---
-
 
 ## Dimensions
 

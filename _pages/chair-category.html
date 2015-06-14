@@ -1,9 +1,8 @@
 ---
 layout: default
 permalink: /chairs/
+title: Chairs
 ---
-<h1>Chairs</h1>
-
 <div class="grid">
 
 	<div class="col-1-2">
@@ -22,7 +21,7 @@ permalink: /chairs/
 	<div class="col-1-2">
 
 		<p class="content-right">
-			<a href="{{ site.baseurl }}/chair-options/">Chair Options</a>
+			<a href="{{ site.baseurl }}/chairs/options/">Chair Options</a>
 		</p>
 
 	</div>
@@ -32,13 +31,13 @@ permalink: /chairs/
 <ul id="items" class="grid left">
 
 	{% for page in site.pages %}
-		{% if page.layout == "seat" %}
+		{% if page.type == "chair" %}
 
 		<li class="mix col-1-4 {{ page.tags }}">
 
 			<div>
 
-				<img src="{{ site.baseurl }}/assets/content/chairs/{{ page.image }}">
+				<img src="{{ site.baseurl }}/assets/content/{{ page.image }}">
 
 				<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chair Options
-permalink: /chair-options/
+permalink: /chairs/options/
 ---
 ## Fabric Swatch
 

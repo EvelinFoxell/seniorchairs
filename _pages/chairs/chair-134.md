@@ -1,8 +1,7 @@
 ---
-layout: seat
 title: Metal Chair 134
 permalink: /chairs/134/
-image: 134.jpg
+image: chairs/134.jpg
 tags: metal
 ---
 

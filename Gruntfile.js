@@ -29,7 +29,8 @@ module.exports = function(grunt) {
 					dest: 'assets/'
 				}],
 				options: {
-					cache: false
+					cache: false,
+					progressive: true
 				}
 			}
 		},

@@ -1,8 +1,7 @@
 ---
-layout: seat
 title: Wood Chair 002SE
 permalink: /chairs/002SE/
-image: 002SE.jpg
+image: chairs/002SE.jpg
 tags: wood stackable
 ---
 

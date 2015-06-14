@@ -1,0 +1,100 @@
+---
+layout: page
+permalink: /barstools/
+title: Barstools
+---
+<div class="grid">
+
+	<div class="col-1-2">
+
+		<p>
+			<strong>Tags:</strong>
+			<span class="filter" data-filter="all">all</span>
+			<span class="filter" data-filter=".wood">wood</span>
+			<span class="filter" data-filter=".metal">metal</span>
+			<span class="filter" data-filter=".stackable">stackable</span>
+			<span class="filter" data-filter=".lounge">lounge</span>
+		</p>
+
+	</div>
+
+	<div class="col-1-2">
+
+		<p class="content-right">
+			<a href="{{ site.baseurl }}/chairs/options/">Chair Options</a>
+		</p>
+
+	</div>
+
+</div>
+
+<ul id="items" class="grid left">
+
+	{% for page in site.pages %}
+		{% if page.type == "barstool" %}
+
+		<li class="mix col-1-4 {{ page.tags }}">
+
+			<div>
+
+				<img src="{{ site.baseurl }}/assets/content/{{ page.image }}">
+
+				<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+
+			</div>
+
+		</li>
+
+		{% endif %}
+	{% endfor %}
+
+</ul>
+title: Barstools
+permalink: /barstools/
+---
+<div class="grid">
+
+	<div class="col-1-2">
+
+		<p>
+			<strong>Tags:</strong>
+			<span class="filter" data-filter="all">all</span>
+			<span class="filter" data-filter=".wood">wood</span>
+			<span class="filter" data-filter=".metal">metal</span>
+			<span class="filter" data-filter=".stackable">stackable</span>
+			<span class="filter" data-filter=".lounge">lounge</span>
+		</p>
+
+	</div>
+
+	<div class="col-1-2">
+
+		<p class="content-right">
+			<a href="{{ site.baseurl }}/chairs/options/">Chair Options</a>
+		</p>
+
+	</div>
+
+</div>
+
+<ul id="items" class="grid left">
+
+	{% for page in site.pages %}
+		{% if page.category == "barstool" %}
+
+		<li class="mix col-1-4 {{ page.tags }}">
+
+			<div>
+
+				<img src="{{ site.baseurl }}/assets/content/{{ page.image }}">
+
+				<h4><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+
+			</div>
+
+		</li>
+
+		{% endif %}
+	{% endfor %}
+
+</ul>

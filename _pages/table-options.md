@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Table Options
-permalink: /table-options/
+permalink: /tables/options/
 ---
 ## Wood Edge Stains
 
