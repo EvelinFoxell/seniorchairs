@@ -1,5 +1,5 @@
 # Senior Chairs
-Repository of the company website for Senior Chairs, created with Jekyll.
+The company website for Senior Chairs, created with Jekyll.
 
 ## Features
 - Semantic markup
