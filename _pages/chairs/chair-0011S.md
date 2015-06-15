@@ -5,6 +5,10 @@ image: chairs/011S.jpg
 tags: wood
 ---
 
+## Features
+
+- Sturdy pine frame
+- Plump seat cushion
 
 ## Dimensions
 

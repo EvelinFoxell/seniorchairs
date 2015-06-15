@@ -7,9 +7,9 @@ html {
 }
 
 body {
-	font-family: "Noto Serif", Georgia, serif;
-	font-size: 1.6rem;
-	line-height: 2.6rem;
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
 	color: #333;
 	background: #ccc;
 }
@@ -66,7 +66,7 @@ ul, ol {
  * Links
  */
 a {
-	color: $brand-color;
+	color: $color-brand;
 	text-decoration: none;
 
 	&:hover {
@@ -117,7 +117,7 @@ img.content {
 h1, h2, h3, h4, h5 {
 	font-family: "Trebuchet MS", "Lato", sans-serif;
 	font-weight: normal;
-	color: #ba2438;
+	color: $color-brand;
 }
 
 h1 {
