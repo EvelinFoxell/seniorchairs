@@ -1,8 +1,5 @@
----
-layout: null
----
 RewriteEngine On
-RewriteBase {{ site.baseurl }}/
+RewriteBase /
 Options +FollowSymLinks
 
 # Remove index.html from directories

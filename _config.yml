@@ -11,10 +11,12 @@ include: ['_pages', '.htaccess']
 exclude: ['Gemfile', 'Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']
 gems: ['jekyll-sitemap']
 
+# Style settings
 sass:
   sass_dir: 'assets/styles/_scss'
   style: 'compressed'
 
+# Markdown settings
 markdown: 'kramdown'
 kramdown:
   parse_block_html: true
