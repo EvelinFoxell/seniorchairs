@@ -2,7 +2,7 @@
 title: Wood Chair 002A
 permalink: /chairs/002A/
 image: chairs/002A.jpg
-tags: wood
+tags: wood lounge
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae sem at lorem pharetra laoreet eu non nisi. Phasellus sollicitudin felis eu suscipit convallis. Cras auctor dui vel lacus rutrum ultricies. Vivamus eu libero in lacus pretium laoreet. Donec molestie ante ex. Pellentesque mattis tortor et lectus accumsan elementum.
 
