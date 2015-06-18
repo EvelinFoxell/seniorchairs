@@ -36,12 +36,7 @@ module.exports = function(grunt) {
 		},
 
 		exec: {
-			ico: 'convert _favicon.svg \
-				\\( -clone 0 -resize 16x16 \\) \
-				\\( -clone 0 -resize 32x32 \\) \
-				\\( -clone 0 -resize 48x48 \\) \
-				\\( -clone 0 -resize 64x64 \\) \
-				-delete 0 -alpha off -colors 256 favicon.ico',
+			ico: 'convert _favicon.svg -define icon:auto-resize=64,48,32,16 favicon.ico',
 			apple: 'convert _favicon.svg -resize 152x152 apple-touch-icon-152x152.png'
 		}
 	});
