@@ -16,11 +16,11 @@ excerpt: Senior Custom Upholstery phone numbers, email, operating hours and addr
 ## Operating Hours
 
 ------------|-------------------
-Monday		| 9:00 am -- 5:00 pm
-Tuesday		| 9:00 am -- 5:00 pm
-Wednesday	| 9:00 am -- 5:00 pm
-Thursday	| 9:00 am -- 5:00 pm
-Friday		| 9:00 am -- 5:00 pm
+Monday		| 8:00 am -- 5:00 pm
+Tuesday		| 8:00 am -- 5:00 pm
+Wednesday	| 8:00 am -- 5:00 pm
+Thursday	| 8:00 am -- 5:00 pm
+Friday		| 8:00 am -- 4:30 pm
 
 ## Store Location
 119 Oakdale Road  

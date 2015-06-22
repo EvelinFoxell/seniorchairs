@@ -22,6 +22,10 @@
 		@extend .cf, .bl;
 	}
 
+	li {
+		padding: 0;
+	}
+
 	nav a {
 		color: white;
 		line-height: 40px;
@@ -103,12 +107,11 @@
 	}
 
 	li div {
-		border: 3px solid #ddd;
-		margin-bottom: $separator;
+		border: 3px solid $color-grey;
 	}
 
 	h4 {
-		border-top: 3px solid #eee;
+		border-top: 3px solid $color-grey;
 		text-align: center;
 	}
 }

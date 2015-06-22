@@ -1,7 +1,7 @@
 ---
-title: Metal Barstool 33
-permalink: /barstools/33/
-image: barstools/33.jpg
+title: 33" Metal Barstool
+permalink: /barstools/33-metal/
+image: barstools/33-metal.jpg
 tags: metal
 ---
 
