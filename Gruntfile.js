@@ -47,6 +47,4 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-exec');
 
 	grunt.registerTask('default', ['concat', 'uglify']);
-	grunt.registerTask('images', ['imagemin']);
-	grunt.registerTask('favicon', ['exec']);
 };

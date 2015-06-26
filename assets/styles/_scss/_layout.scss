@@ -102,16 +102,46 @@
 	@extend .bl;
 
 	img {
-		margin: $separator/2 auto;
+		margin: ($separator / 2) auto;
+		max-width: none;
 		height: 200px;
 	}
 
 	li div {
 		border: 3px solid $color-grey;
+		overflow-x: hidden;
 	}
 
 	h4 {
 		border-top: 3px solid $color-grey;
 		text-align: center;
 	}
+}
+
+
+/**
+ * Buttons
+ */
+.tags {
+	margin-right: 5px;
+}
+
+.filter {
+	padding: 1rem;
+	font-family: $font-family-alt;
+	border-top: 2px solid $color-grey;
+	background: $color-grey;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	font-size: $font-small;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+.filter:hover,
+.filter.active {
+	border-top: 2px solid $color-brand;
+	background: $color-brand-light;
+	color: white;
 }

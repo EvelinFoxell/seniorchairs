@@ -115,7 +115,7 @@ img.content {
  * Headings
  */
 h1, h2, h3, h4, h5 {
-	font-family: "Trebuchet MS", "Lato", sans-serif;
+	font-family: $font-family-alt;
 	font-weight: normal;
 	color: $color-brand;
 }

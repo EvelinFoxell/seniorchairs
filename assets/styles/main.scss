@@ -7,13 +7,17 @@
  * Variables
  */
 $font-family: "Noto Serif", Georgia, serif;
+$font-family-alt: "Trebuchet MS", "Lato", sans-serif;
+
 $font-size: 1.6rem;
 $font-small: 1.2rem;
 $line-height: 2.6rem;
 $separator: 2rem;
 
-$color-grey: #ddd;
 $color-brand: #ba2438;
+$color-brand-light: lighten($color-brand, 20%);
+$color-grey: #ddd;
+
 
 /**
  * Imports
@@ -22,4 +26,3 @@ $color-brand: #ba2438;
 @import "grid";
 @import "base";
 @import "layout";
-@import "gallery";
