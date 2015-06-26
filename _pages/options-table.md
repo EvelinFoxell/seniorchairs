@@ -2,6 +2,7 @@
 layout: page
 title: Table Options
 permalink: /tables/options/
+excerpt: 
 ---
 ## Wood Edge Stains
 

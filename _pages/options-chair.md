@@ -2,6 +2,7 @@
 layout: page
 title: Chair Options
 permalink: /chairs/options/
+excerpt: 
 ---
 ## Fabric Swatch
 

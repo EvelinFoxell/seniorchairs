@@ -81,15 +81,12 @@ img {
 	max-width: 100%;
 	display: block;
 	margin-bottom: $separator;
+	border: 3px solid $color-grey;
 }
 
 .half {
 	max-width: 50%;
 	margin: 0;
-}
-
-img {
-	border: 3px solid $color-grey;
 }
 
 /**
