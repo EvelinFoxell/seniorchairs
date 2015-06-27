@@ -4,7 +4,12 @@ permalink: /chairs/023S/
 image: chairs/023S.jpg
 tags: wood
 ---
+## Features
 
+- Beechwood chair with dark red stain
+- Curved back support
+- Padded [fabric seat]({{ site.baseurl }}/chairs/options/#fabric-swatch)
+- Thick features
 
 ## Dimensions
 

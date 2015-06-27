@@ -4,8 +4,9 @@ permalink: /chairs/002SE/
 image: chairs/002SE.jpg
 tags: wood
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae sem at lorem pharetra laoreet eu non nisi. Phasellus sollicitudin felis eu suscipit convallis. Cras auctor dui vel lacus rutrum ultricies. Vivamus eu libero in lacus pretium laoreet. Donec molestie ante ex. Pellentesque mattis tortor et lectus accumsan elementum.
+## Features
+- Dark stained beechwood chair
+- Vertically lines, classic design
 
 ## Dimensions
 

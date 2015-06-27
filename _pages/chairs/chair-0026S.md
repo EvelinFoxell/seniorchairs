@@ -4,7 +4,10 @@ permalink: /chairs/026S/
 image: chairs/026S.jpg
 tags: wood
 ---
+## Features
 
+- Smooth polished wood seat
+- Made from beechwood
 
 ## Dimensions
 
