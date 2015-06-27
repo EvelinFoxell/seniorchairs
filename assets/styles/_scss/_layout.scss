@@ -132,12 +132,14 @@
 /**
  * Filter Buttons
  */
-.tags {
-	margin-right: 5px;
+.tags,
+.filter {
+	display: inline-block;
 }
 
 .filter {
-	padding: 1rem;
+	padding: 0 1rem;
+	line-height: $line-height + 1rem;
 	font-family: $font-family-alt;
 	border-top: 2px solid $color-grey;
 	background: $color-grey;
@@ -154,4 +156,13 @@
 	border-top: 2px solid $color-brand;
 	background: $color-brand-light;
 	color: white;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.tags {
+		display: block;
+		margin-bottom: 1rem;
+	}
+
 }
