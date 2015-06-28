@@ -3,12 +3,13 @@ title: Center Unit with Plain Upholstery
 permalink: /booths/center-unit-plain/
 image: booths/center-unit-plain.jpg
 ---
+## Features
 
-hey hey hey
+- Center units can be combined with corner units
 
 
 ## Dimensions
 
 Height | Width | Depth
 -------|-------|------
-42"    | 48"   | 24"
+42"    | 45"   | 48"
