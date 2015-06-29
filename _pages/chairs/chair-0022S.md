@@ -11,7 +11,6 @@ tags: wood
 - Mid-height back support
 - Cushioned fabric seat with [multiple options available]({{ site.baseurl }}/chairs/options/#fabric-swatch)
 
-
 ## Dimensions
 
 Height | Width | Length
