@@ -7,7 +7,6 @@ image: booths/center-unit-plain.jpg
 
 - Center units can be combined with corner units
 
-
 ## Dimensions
 
 Height | Width | Depth
