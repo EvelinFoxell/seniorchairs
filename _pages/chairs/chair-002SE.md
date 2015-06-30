@@ -5,8 +5,9 @@ image: chairs/002SE.jpg
 tags: wood
 ---
 ## Features
-- Dark stained beechwood chair
-- Vertically lines, classic design
+
+- Dark stain beechwood chair
+- Vertical back rest, classic design
 
 ## Dimensions
 

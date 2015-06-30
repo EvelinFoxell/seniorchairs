@@ -7,7 +7,7 @@ tags: wood
 ## Features
 
 - Medium stain beechwood chair
-- Vertically lines, classic design
+- Vertical back rest, classic design
 
 ## Dimensions
 

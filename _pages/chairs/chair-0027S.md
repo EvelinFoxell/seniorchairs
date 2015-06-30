@@ -4,10 +4,12 @@ permalink: /chairs/027S/
 image: chairs/027S.jpg
 tags: wood
 ---
+## Features
+
 
 
 ## Dimensions
 
 Height | Width | Length
 -------|-------|-------
-34.6"  | 18.1" | 20.1"
+34"    | 17"   | 17"
