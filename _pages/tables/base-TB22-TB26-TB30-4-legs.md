@@ -5,7 +5,7 @@ image: tables/base-TB22-TB26-TB30-4-legs.jpg
 tags: base
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

@@ -5,7 +5,7 @@ image: tables/24-square-CQ-T013-base.jpg
 tags: table
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

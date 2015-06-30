@@ -4,12 +4,13 @@ permalink: /tables/beveled-maple-edges/
 image: tables/beveled-maple-edge.jpg
 tags: table
 ---
+## Features
 
-hey hey hey
-
+- Maple colored, [beveled edge]({{ site.baseurl }}/tables/options/#table-top-edges)
+- Patterned table surface
 
 ## Dimensions
 
-Height | Diameter | Base Spread
--------|----------|------------
-42"    | 30"      | 30"
+Height | Width | Depth
+-------|-------|------
+30"    | 24"   | 30"

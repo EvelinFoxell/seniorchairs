@@ -5,7 +5,7 @@ image: tables/24-round-4020-base.jpg
 tags: table
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

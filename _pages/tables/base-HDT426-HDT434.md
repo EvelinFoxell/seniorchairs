@@ -5,7 +5,7 @@ image: tables/base-HDT426-HDT434.jpg
 tags: base
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

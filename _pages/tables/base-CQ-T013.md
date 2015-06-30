@@ -5,7 +5,7 @@ image: tables/CQ-T013.jpg
 tags: base
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

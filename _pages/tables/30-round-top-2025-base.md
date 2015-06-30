@@ -5,7 +5,7 @@ image: tables/30-round-top-2025-base.jpg
 tags: table
 ---
 
-hey hey hey
+
 
 
 ## Dimensions

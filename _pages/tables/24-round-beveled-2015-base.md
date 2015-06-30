@@ -5,7 +5,7 @@ image: tables/24-round-beveled-2015-base.jpg
 tags: table
 ---
 
-hey hey hey
+
 
 
 ## Dimensions
