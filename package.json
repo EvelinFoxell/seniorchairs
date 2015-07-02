@@ -1,12 +1,13 @@
 {
   "name": "seniorchairs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "^0.5.0",
     "jpegtran-bin": "0.2.3",
     "grunt-contrib-imagemin": "^0.9.4",
     "grunt-contrib-uglify": "^0.7.0",
-    "grunt-exec": "^0.4.6"
+    "grunt-exec": "^0.4.6",
+    "svgexport": "^0.2.5"
   }
 }
