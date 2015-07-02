@@ -8,10 +8,10 @@ excerpt: Senior Custom Upholstery phone numbers, email, operating hours and addr
 
 <div class="col-1-2">
 
-**Local:** 416-744-5058  
-**Fax:** 416-744-0922  
-**Toll Free:** 1-888-231-5143  
-**Email:** [sales@seniorchairs.com](mailto:sales@seniorchairs.com)
+**Local:** 416-744-5058
+**Fax:** 416-744-0922
+**Toll Free:** 1-888-231-5143
+**Email:** [{{ site.email }}](mailto:{{ site.email }})
 
 ## Operating Hours
 
@@ -23,8 +23,8 @@ Thursday	| 8:00 am -- 5:00 pm
 Friday		| 8:00 am -- 4:30 pm
 
 ## Store Location
-119 Oakdale Road  
-Toronto, Ontario  
+119 Oakdale Road
+Toronto, Ontario
 M3N 1W2
 
 </div>

@@ -1,16 +1,2 @@
 # Senior Chairs
 The *future* company website of [Senior Chairs](http://www.seniorchairs.com), created with Jekyll.
-
-<!--
-## Features
-- Semantic markup and a responsive CSS grid
-- Pluginless category pages with dynamic filtering
-- Sitemap using [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) plugin
-- Intelligent `_config.yml` defaults
-
-## Grunt
-Automated tasks for:
-- Loselessly compressing images
-- Concatenating and minifying JavaScript files
-- Generating the favicon and Apple touch icon
--->
