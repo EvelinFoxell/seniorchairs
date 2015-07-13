@@ -4,7 +4,9 @@ permalink: /chairs/046S/
 image: chairs/046S.jpg
 tags: wood
 ---
+## Features
 
+- Comfortable seat cushion which comes in [multiple patterns]({{ site.baseurl }}/chairs/options/#fabric-swatch)
 
 ## Dimensions
 

@@ -4,6 +4,10 @@ permalink: /chairs/AL205/
 image: chairs/AL205.jpg
 tags: metal stackable
 ---
+## Features
+
+- Stackable for effecient storage
+- Fully metal construction makes these chairs suitable for outdoor use
 
 
 ## Dimensions

@@ -4,8 +4,10 @@ permalink: /chairs/134/
 image: chairs/134.jpg
 tags: metal
 ---
+## Features
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae sem at lorem pharetra laoreet eu non nisi. Phasellus sollicitudin felis eu suscipit convallis. Cras auctor dui vel lacus rutrum ultricies. Vivamus eu libero in lacus pretium laoreet. Donec molestie ante ex. Pellentesque mattis tortor et lectus accumsan elementum.
+- Sturdy steel frame with a clean, modern look
+- A dark colored frame which looks great with [any color seat]({{ site.baseurl }}/chairs/options/#vinyl-swatch)
 
 ## Dimensions
 

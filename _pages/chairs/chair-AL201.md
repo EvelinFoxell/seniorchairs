@@ -4,8 +4,6 @@ permalink: /chairs/AL201/
 image: chairs/AL201.jpg
 tags: metal stackable
 ---
-
-
 ## Dimensions
 
 Height | Width | Length

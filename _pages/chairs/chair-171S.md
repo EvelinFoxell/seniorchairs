@@ -1,7 +1,7 @@
 ---
-title: Wood Chair 160S
-permalink: /chairs/160S/
-image: chairs/160S.jpg
+title: Wood Chair 171S
+permalink: /chairs/171S/
+image: chairs/171S.jpg
 tags: wood
 ---
 
