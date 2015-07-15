@@ -31,6 +31,7 @@
 		line-height: 40px;
 		text-align: center;
 		display: block;
+		margin-right: 20px;
 	}
 }
 
@@ -132,7 +133,15 @@
 /**
  * Filter Buttons
  */
-.tags,
+.tags {
+	text-align: left;
+}
+
+.tags strong {
+	margin: 0;
+}
+
+.tags strong,
 .filter {
 	display: inline-block;
 }
@@ -158,11 +167,14 @@
 	color: white;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
-	.tags {
+	.tags strong {
 		display: block;
-		margin-bottom: 1rem;
+	}
+
+	.filter {
+		margin-top: 10px;
 	}
 
 }
