@@ -4,7 +4,10 @@ permalink: /chairs/091S/
 image: chairs/091S.jpg
 tags: wood
 ---
+## Features
 
+- Spindle style back support
+- Extra thick seat cushion 
 
 ## Dimensions
 

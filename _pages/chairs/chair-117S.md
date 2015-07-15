@@ -4,7 +4,10 @@ permalink: /chairs/117S/
 image: chairs/117S.jpg
 tags: wood
 ---
+## Features
 
+- Solid back rest is padded for added comfort
+- Texture and pattern of the wood visible through the semi-transparent stain
 
 ## Dimensions
 

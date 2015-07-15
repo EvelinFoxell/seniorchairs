@@ -9,7 +9,6 @@ tags: metal stackable
 - Sturdy metal frame and with padded cloth seat
 - Resistant to heavy use and can be easily stacked for storage
 
-
 ## Dimensions
 
 Height | Width | Length
