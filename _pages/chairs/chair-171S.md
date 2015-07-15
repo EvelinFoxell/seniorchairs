@@ -4,7 +4,10 @@ permalink: /chairs/171S/
 image: chairs/171S.jpg
 tags: wood
 ---
+## Features
 
+- Light beechwood chair with seat cushion
+- Square cutouts in the back rest 
 
 ## Dimensions
 

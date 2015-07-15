@@ -6,7 +6,8 @@ tags: wood
 ---
 ## Features
 
--
+- Unique looking design
+- Ergonomically shaped back rest
 
 ## Dimensions
 
