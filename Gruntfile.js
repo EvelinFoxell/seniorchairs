@@ -36,13 +36,14 @@ module.exports = function(grunt) {
 		},
 
 		exec: {
-			apple: 'svgexport _favicon.svg apple-touch-icon.png 144:144',
-			favicon: 'svgexport _favicon.svg _favicon16.png 16:16 \n\
-				svgexport _favicon.svg _favicon32.png 32:32 \n\
-				svgexport _favicon.svg _favicon48.png 48:48 \n\
-				svgexport _favicon.svg _favicon64.png 64:64 \n\
-				convert _favicon*.png favicon.ico \n\
-				rm _favicon*.png',
+			apple: 'rsvg-convert -w 144 -h 144 _favicon.svg -o apple-touch-icon.png',
+			favicon: 'mkdir .temp \n\
+				rsvg-convert _favicon.svg -o .temp/favicon16.png \n\
+				rsvg-convert -w 32 -h 32 _favicon.svg -o .temp/favicon32.png \n\
+				rsvg-convert -w 48 -h 48 _favicon.svg -o .temp/favicon48.png \n\
+				rsvg-convert -w 64 -h 64 _favicon.svg -o .temp/favicon64.png \n\
+				convert .temp/*.png favicon.ico \n\
+				rm -R .temp',
 		}
 	});
 

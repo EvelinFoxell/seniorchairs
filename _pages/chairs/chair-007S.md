@@ -4,7 +4,9 @@ permalink: /chairs/007S/
 image: chairs/007S.jpg
 tags: wood
 ---
+## Features
 
+-
 
 ## Dimensions
 
