@@ -4,7 +4,11 @@ permalink: /chairs/028S/
 image: chairs/028S.jpg
 tags: wood
 ---
+## Features
 
+- The vinyl seat is easy to clean
+- Elegant, darkly stained beechwood frame
+- Looks great with other furniture
 
 ## Dimensions
 

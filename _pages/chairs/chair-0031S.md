@@ -4,7 +4,10 @@ permalink: /chairs/031S/
 image: chairs/031S.jpg
 tags: wood
 ---
+## Features
 
+- Very comfortable due to the fabric back rest and seat
+- The beechwood borders the high fabric back rest
 
 ## Dimensions
 

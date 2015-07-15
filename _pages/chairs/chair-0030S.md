@@ -4,7 +4,11 @@ permalink: /chairs/030S/
 image: chairs/030S.jpg
 tags: wood
 ---
+## Features
 
+- Lath back rest
+- Dark stain
+- Fully beechwood construction
 
 ## Dimensions
 

@@ -6,7 +6,9 @@ tags: wood
 ---
 ## Features
 
-
+- The vinyl seat is easy to clean
+- Elegant, darkly stained beechwood frame
+- Square back design
 
 ## Dimensions
 
