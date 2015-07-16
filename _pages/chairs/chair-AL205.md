@@ -9,7 +9,6 @@ tags: metal stackable
 - Stackable for effecient storage
 - Fully metal construction makes these chairs suitable for outdoor use
 
-
 ## Dimensions
 
 Height | Width | Length
