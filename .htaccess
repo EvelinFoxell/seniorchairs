@@ -13,6 +13,10 @@ RewriteRule ^(.*)index.html$ $1 [R=301,NC,L]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+# Remove query parameters
+RewriteCond %{QUERY_STRING} !=""
+RewriteRule ^(.*)$ /$1? [R=301,L]
+
 # Enable compression
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript image/svg+xml
 
