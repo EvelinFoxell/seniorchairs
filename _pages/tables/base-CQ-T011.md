@@ -1,7 +1,7 @@
 ---
 title: Table Base CQ-T011
 permalink: /tables/base-CQ-T011/
-image: tables/CQ-T011.jpg
+image: tables/base-CQ-T011.jpg
 tags: base
 ---
 
