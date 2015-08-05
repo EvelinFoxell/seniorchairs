@@ -5,9 +5,6 @@ image: tables/CQ-T013.jpg
 tags: base
 ---
 
-
-
-
 ## Dimensions
 
 Height | Diameter | Base Spread

@@ -1,12 +1,9 @@
 ---
 title: Table Base CQ-T014
 permalink: /tables/base-CQ-T014/
-image: tables/CQ-T014.jpg
+image: tables/base-CQ-T014.jpg
 tags: base
 ---
-
-
-
 
 ## Dimensions
 
