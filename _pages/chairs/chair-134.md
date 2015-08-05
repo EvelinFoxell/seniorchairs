@@ -13,4 +13,4 @@ tags: metal
 
 Height | Width  | Depth
 -------|--------|-------
-34 in. | 16 in. | 17 in.
+34"    | 16"    | 17"
