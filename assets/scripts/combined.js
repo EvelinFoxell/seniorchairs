@@ -2282,24 +2282,25 @@ ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 $(function() {
 	$.injectCSS({
-		".mix": {
-			"display": "none"
+		'.mix': {
+			'display': 'none'
 		}
 	});
-
-	var filterOnLoad = window.location.hash ? '.' + (window.location.hash).replace('#', '') : 'all';
 
 	$('#items').mixItUp({
 		animation: {
 			enable: false
 		},
 		load: {
-			filter: filterOnLoad
+			filter: window.location.hash ? '.' + (window.location.hash).replace('#', '') : 'all'
 		}
 	});
 
 	$('.filter').click(function() {
-		window.location.hash = $(this).attr('data-filter').replace('.', '#');
-		console.log('test');
+		var filterName = $(this).attr('data-filter'),
+			replaceUrl = window.location.href.split('#')[0];
+
+		replaceUrl = filterName === 'all' ? '' : '#' + filterName.replace('.', '');
+		location.replace(replaceUrl);
 	});
 });

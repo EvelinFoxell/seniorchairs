@@ -1,7 +1,7 @@
 $(function() {
 	$.injectCSS({
-		".mix": {
-			"display": "none"
+		'.mix': {
+			'display': 'none'
 		}
 	});
 
@@ -15,6 +15,10 @@ $(function() {
 	});
 
 	$('.filter').click(function() {
-		window.location.hash = $(this).attr('data-filter').replace('.', '#');
+		var filterName = $(this).attr('data-filter'),
+			replaceUrl = window.location.href.split('#')[0];
+
+		replaceUrl = filterName === 'all' ? '' : '#' + filterName.replace('.', '');
+		location.replace(replaceUrl);
 	});
 });
