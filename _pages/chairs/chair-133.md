@@ -1,5 +1,5 @@
 ---
-title: Wood Chair 133
+title: Metal Chair 133
 permalink: /chairs/133/
 image: chairs/133.jpg
 tags: metal
