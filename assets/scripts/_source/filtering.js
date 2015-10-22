@@ -10,7 +10,7 @@ $(function() {
 			enable: false
 		},
 		load: {
-			filter: window.location.hash ? (window.location.hash).replace('#', '.') : 'all'
+			filter: getFilter()
 		}
 	});
 
@@ -23,10 +23,18 @@ $(function() {
 	});
 
 	$(window).bind('hashchange', function() {
-		var filterName = window.location.hash ? (window.location.hash).replace('#', '.') : 'all';
+		var filterName = getFilter();
 
 		$('.active').removeClass('active');
 		$('span[data-filter="' + filterName + '"]').addClass('active');
 		$('#items').mixItUp('filter', filterName);
 	});
+
+	function getFilter() {
+		if (window.location.hash) {
+			return (window.location.hash).replace('#', '.');
+		} else {
+			return 'all';
+		}
+	}
 });
