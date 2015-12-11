@@ -1,9 +1,8 @@
 ---
 layout: page
+title: About Us
 permalink: /
 ---
-# About
-
 <div class="grid">
 
 <div class="col-1-2">

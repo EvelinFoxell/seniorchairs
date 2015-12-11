@@ -16,7 +16,7 @@ $(function() {
 
 	$('.filter').click(function() {
 		var filterName = $(this).attr('data-filter');
-		var	replaceUrl = window.location.href.split('#')[0];
+		var replaceUrl = window.location.href.split('#')[0];
 
 		replaceUrl = (filterName === 'all') ? '' : '#' + filterName.replace('.', '');
 		location.replace(replaceUrl);
