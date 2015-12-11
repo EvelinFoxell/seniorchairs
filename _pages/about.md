@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /
+excerpt: Toronto based manufacturers and importers of chrome and wood chairs, barstools, and oak edge tables for restaurants, banquet halls, hotels and institutions.
 ---
 <div class="grid">
 
