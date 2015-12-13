@@ -30,7 +30,7 @@ M3N 1W2
 </div>
 
 <div class="col-1-2">
-<a href="https://goo.gl/maps/Um0YY" target="_blank"><img src="{{ site.baseurl }}/assets/content/map.png"></a>
+<a href="https://goo.gl/maps/Um0YY" target="_blank">![Map of store location]({{ site.baseurl }}/assets/content/map.png)</a>
 </div>
 
 </div>
