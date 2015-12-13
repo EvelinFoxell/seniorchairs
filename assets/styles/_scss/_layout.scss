@@ -61,7 +61,8 @@
 		display: inline-block;
 		text-align: center;
 		margin: 0 1rem 0 0;
-		width: 16px;
+		width: 17px;
+		font-size: 17px;
 	}
 }
 
@@ -92,6 +93,12 @@
 .post-link {
 	display: block;
 	font-size: 24px;
+}
+
+span.amp {
+   font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+   font-size: 3.6rem;
+   font-style: italic;
 }
 
 

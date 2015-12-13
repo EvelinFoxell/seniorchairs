@@ -5,7 +5,7 @@
 	<meta name="google-site-verification" content="V7pCfC2ZYwaG8N1mtAHZ8IqoanC-9QoLpwGzRLakJ48">
 	{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">{% endif %}
 
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
 	<link rel="stylesheet" href="{{ "/assets/styles/main.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif">
